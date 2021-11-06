@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\VagabondK.Korean.xml</DocumentationFile>
+    <Company>Vagabond K</Company>
+    <Authors>Vagabond K</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>nugetIcon.png</PackageIcon>
+    <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Vagabond-K/VagabondK.Korean/tree/master/VagabondK.Korean</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>한국에 국한된 관련 기능들을 제공하는 라이브러리입니다.</Description>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/Vagabond-K/VagabondK.Korean/tree/master/VagabondK.Korean</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\nugetIcon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

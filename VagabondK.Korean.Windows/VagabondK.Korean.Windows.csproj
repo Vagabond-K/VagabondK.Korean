@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netcoreapp3.1</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>VagabondK.Korean</RootNamespace>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\VagabondK.Korean.Windows.xml</DocumentationFile>
+    <Company>Vagabond K</Company>
+    <Authors>Vagabond K</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>nugetIcon.png</PackageIcon>
+    <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Vagabond-K/VagabondK.Korean/tree/master/VagabondK.Korean.Windows</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>한국에 국한된 관련 기능들을 제공하는 Windows 운영체제용 라이브러리입니다.</Description>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/Vagabond-K/VagabondK.Korean/tree/master/VagabondK.Korean.Windows</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\nugetIcon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="VagabondK.Windows" Version="1.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VagabondK.Korean\VagabondK.Korean.csproj" />
+  </ItemGroup>
+
+</Project>
