@@ -60,7 +60,7 @@ namespace VagabondK.Korean.Hangul
         /// <summary>
         /// 교체 입력(예: ㄱㅋㄲ) 제한시간(밀리초)을 가져오거나 설정합니다. 기본 값은 600밀리초입니다.
         /// </summary>
-        public int ReplaceInputTimeout { get; set; } = 60000;
+        public int ReplaceInputTimeout { get; set; } = 600;
 
         /// <summary>
         /// 문자 입력
