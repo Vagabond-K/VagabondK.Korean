@@ -13,7 +13,7 @@
     <RepositoryUrl>https://github.com/Vagabond-K/VagabondK.Korean/tree/master/VagabondK.Korean.Windows</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Description>한국에 국한된 관련 기능들을 제공하는 Windows 운영체제용 라이브러리입니다.</Description>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/Vagabond-K/VagabondK.Korean/tree/master/VagabondK.Korean.Windows</PackageProjectUrl>
   </PropertyGroup>
 
